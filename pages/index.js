@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Body from '@components/Body'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
+        <Body content="NOTE- this is a test. Checking updates live"></Body>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
